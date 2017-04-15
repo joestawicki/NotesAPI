@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes", "Notes\Notes.csproj", "{850560B4-7561-40D1-B509-2A74C7A6B3DD}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NotesApiInstaller", "NotesApiInstaller\NotesApiInstaller.vdproj", "{BB3233B4-4496-4FB0-A7D7-6EB39E22BBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{850560B4-7561-40D1-B509-2A74C7A6B3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850560B4-7561-40D1-B509-2A74C7A6B3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850560B4-7561-40D1-B509-2A74C7A6B3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3233B4-4496-4FB0-A7D7-6EB39E22BBA2}.Debug|Any CPU.ActiveCfg = Debug
+		{BB3233B4-4496-4FB0-A7D7-6EB39E22BBA2}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
