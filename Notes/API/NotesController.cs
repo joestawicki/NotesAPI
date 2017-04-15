@@ -21,6 +21,12 @@ namespace Notes.API
             return dataContext.Notes.SingleOrDefault(d => d.id == id);
         }
 
+        // GET api/note?query=
+        public IEnumerable<Note> Get([FromUri]string query)
+        {
+            return dataContext.Notes.Where(p => p.body.Contains(query));
+        }
+
         // POST api/note
         public void Post(Note value)
         {
