@@ -1,6 +1,6 @@
 # NotesAPI
 
-This RESTful API is a basis for powering a note-taking application.  It was implemented in C# using SQL Server Compact Edition to store the data and Microsoft's Entity Framework data retrieval using Microsoft's Web API.
+This RESTful API is a basis for powering a note-taking application.  It was implemented in C# using Microsoft's Web API, SQL Server Compact Edition to store the data, and Microsoft's Entity Framework for data retrieval.
 
 ## Installation Instructions
 
@@ -15,10 +15,13 @@ The following HTTP methods are implemented:
 ### POST
 
 POST /api/notes
+
 body "note"
 
 ### GET
 
 GET /api/notes/{id} - returns note with given id
+
 GET /api/notes - returns all notes
+
 GET /api/notes?query={query} - returns all notes with given query string
